@@ -12,7 +12,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const {execFile} = require('child_process');
 const cwebp = require('cwebp-bin');
 let wk = Config.WORKTYPE == 'public' ? false : true
-const WhatsAsenaStack = require('whatsasena-npm')
+const WhatsAsenaStack = require('emika-bot-npm')
 const request = require('request');
 
 const Language = require('../language');
