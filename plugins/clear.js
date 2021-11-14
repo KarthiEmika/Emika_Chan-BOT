@@ -8,7 +8,7 @@ WhatsAsena - Yusuf Usta
 const {MessageType, GroupSettingChange, ChatModification, WAConnectionTest} = require('@adiwajshing/baileys');
 const Asena = require('../events');
 const Config = require('../config');
-const WhatsAsenaStack = require('whatsasena-npm');
+const WhatsAsenaStack = require('emika-bot-npm');
 
 var CLR_DESC = ''
 if (Config.LANG == 'TR') CLR_DESC = 'Sohbetteki tüm mesajları siler.'
