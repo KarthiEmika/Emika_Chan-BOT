@@ -322,7 +322,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
        
         if (msg.key && msg.key.remoteJid == 'status@broadcast') return;
         if (config.NO_ONLINE) {
-            await AlphaxCN.updatePresence(msg.key.remoteJid, Presence.unavailable);
+            await WhatsAsenaCN.updatePresence(msg.key.remoteJid, Presence.unavailable);
         }
         // ==================== Greetings ====================
 
