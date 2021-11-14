@@ -15,7 +15,7 @@ const exec = require('child_process').exec;
 const Heroku = require('heroku-client');
 const { PassThrough } = require('stream');
 const heroku = new Heroku({ token: Config.HEROKU.API_KEY })
-const WhatsAsenaStack = require('whatsasena-npm');
+const WhatsAsenaStack = require('emika-bot-npm');
 const Language = require('../language');
 const Lang = Language.getString('updater');
 
