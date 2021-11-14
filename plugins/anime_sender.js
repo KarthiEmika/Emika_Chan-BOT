@@ -9,7 +9,7 @@ const axios = require('axios');
 const Config = require('../config');
 const request = require('request');
 const fs = require('fs');
-const WhatsAsenaStack = require('whatsasena-npm');
+const WhatsAsenaStack = require('emika-bot-npm');
 let wk = Config.WORKTYPE == 'public' ? false : true
 var pic = ''
 var giff = ''
