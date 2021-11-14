@@ -6,7 +6,7 @@ Instagram: www.instagram.com/kyrie.baran
 const {MessageType, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const Asena = require('../events');
 const Config = require('../config');
-const WhatsAsenaStack = require('whatsasena-npm');
+const WhatsAsenaStack = require('emika-bot-npm');
 const axios = require('axios')
 let wk = Config.WORKTYPE == 'public' ? false : true
 
