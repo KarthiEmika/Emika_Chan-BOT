@@ -4,7 +4,7 @@ Instagram: www.instagram.com/kyrie.baran
 
 Special Thanks:
 @Unique_hunter for Helps
-*/
+
 
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
@@ -120,4 +120,4 @@ await download('https://so' + _0x420582(0x298, 0x2a6, 0x28e, 0x29a) + _0x45280d(
 });
 exec('rm -rf wwp.png')
 }));   
-
+*/
