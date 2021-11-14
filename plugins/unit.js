@@ -7,7 +7,7 @@ const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
-const WhatsAsenaStack = require('whatsasena-npm');
+const WhatsAsenaStack = require('emika-bot-npm');
 const exec = require('child_process').exec;
 
 let wk = Config.WORKTYPE == 'public' ? false : true
