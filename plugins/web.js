@@ -10,7 +10,7 @@ const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const TinyURL = require('tinyurl');
 const Config = require('../config');
-const WhatsAsenaStack = require('whatsasena-npm')
+const WhatsAsenaStack = require('emika-bot-npm')
 
 const Language = require('../language');
 const Lang = Language.getString('web');
