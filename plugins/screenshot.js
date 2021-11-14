@@ -10,7 +10,7 @@ const axios = require('axios');
 const request = require('request');
 const got = require("got");
 const Config = require('../config');
-const WhatsAsenaStack = require('whatsasena-npm')
+const WhatsAsenaStack = require('emika-bot-npm')
 const Language = require('../language');
 const Lang = Language.getString('webss');
 let wk = Config.WORKTYPE == 'public' ? false : true
